@@ -1,11 +1,13 @@
 import subprocess
 
+from typing import List
 
-def run_subprocess(command: list[str]) -> str:
+
+def run_subprocess(command: List[str]) -> str:
     return subprocess.run(command, capture_output=True).stdout.decode()
 
 
-def _get_package_name(command: list[str]) -> list[str]:
+def _get_package_name(command: List[str]) -> List[str]:
     output = run_subprocess(command) 
     return [line.split()[0] for line in output.split("\n") if len(line.split()) > 0]
 
