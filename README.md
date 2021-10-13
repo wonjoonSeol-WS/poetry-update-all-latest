@@ -15,7 +15,7 @@ poetry show --outdated
 Check each package changelog, if you are happy with all changes run:
 
 ```
-python poetry-update.py
+poetry-update-all
 ```
 
 Run tests to check any breaking changes.
