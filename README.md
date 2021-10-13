@@ -1,3 +1,6 @@
+This script updates all pyproject.toml packages to the latest version, 
+while ensuring --dev option.
+
 First, run:
 ```
 poetry update
