@@ -15,4 +15,5 @@ Check each package changelog, if you are happy with all changes run:
 python poetry-update.py
 ```
 
-Run tests to check any breaking changes
+Run tests to check any breaking changes.
+You might need to run this multiple times if you encounter dependency errors. (SolverProblemError)
