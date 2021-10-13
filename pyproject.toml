@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "poetry_update_all"
-version = "0.1.3"
+version = "0.1.4"
 description = "update all poetry packge to latest, while ensuring --dev"
 authors = ["Wonjoon Seol"]
 license = "MIT"
 readme = "README.md"
 include = ["LICENSE"]
-
+repository = "https://github.com/wonjoonSeolDH/poetry-update-all-latest"
 
 [tool.poetry.dependencies]
 python = "^3.0"
